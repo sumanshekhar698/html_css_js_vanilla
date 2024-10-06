@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<!-- self closing tags -->
+
+<!-- lang is a tag attribute  -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Day 1</title>
+</head>
+
+<!-- Emmet  gives the Boiler Plate Code -->
+
+<body>
+
+    <!-- Exact Source Code -->
+
+    <!-- 1. heading tags -->
+    <h1 id="heading1">H1 tag</h1>
+    <h2>H2 tag</h2>
+    <h3>H1 tag</h3>
+    <h4>H1 tag</h4>
+    <h5>H1 tag</h5>
+
+    <!-- 2. Use images -->
+    <img src="https://images.ctfassets.net/wg1141eg84ns/1f5qGdqXTry030imgJwTLL/997dc6e625b3de6b90c2c63b0658148e/Coldplay.jpg?fit=fill&f=center&w=1600&h=900"
+        alt="colplay band">
+
+    <img src="./assets/img/lp-band.jpg" alt="linkin park band">
+
+
+    <br>
+    <!-- 3. anchor tag -->
+    <a href="https://people.com/" target="_blank">People.com</a>
+    <a href="#heading1"> heading1</a>
+
+
+    <!-- 4. paragraph tag -->
+    <p><em>Lorem ipsum</em> <strong>dolor</strong> <strong><em>sit</em></strong> amet consectetur, adipisicing elit.
+        <a href="https://people.com/tag/taylor-swift/" target="_blank">Taylor Swift</a>
+        Possimus, alias saepe. Accusamus asperiores modi id
+        fugiat fuga libero repellendus nostrum ullam, iure deserunt corrupti dolor similique ea! Illo, itaque? Eveniet
+        praesentium hic ut doloremque repellendus quam beatae aperiam autem corrupti soluta iusto quos, iste corporis
+        facere voluptatibus illo dolor quod?<br> Minima tenetur vitae voluptatum molestiae itaque eius praesentium,
+        fugit
+        error dolorem ducimus sint consequatur atque veritatis obcaecati <span id="word" style="color: brown;">repellat
+            consequuntur doloribus</span>. Aliquam vel
+        eius aperiam tempore eaque laudantium magnam illum totam voluptatem. Accusantium nostrum, aliquid magni optio
+        ipsa inventore itaque libero sequi consequuntur asperiores? Quibusdam, nobis quod debitis sint odit
+        voluptatibus?
+    </p>
+
+
+    <h2>HTML Tables</h2>
+    <table>
+        <caption>Music Events</caption>
+        <thead>
+            <tr>
+                <th>Sl no</th>
+                <th>Event Name</th>
+                <th>Event Date</th>
+                <th>Tickets Available ?</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Lola Paloza</td>
+                <td>6 March</td>
+                <td>YES</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Lola Paloza</td>
+                <td>6 March</td>
+                <td>YES</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Lola Paloza</td>
+                <td>6 March</td>
+                <td>YES</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Lola Paloza</td>
+                <td>6 March</td>
+                <td>YES</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Lola Paloza</td>
+                <td>6 March</td>
+                <td>YES</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <tr>
+                    <td>5</td>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                </tr>
+            </tr>
+        </tfoot>
+    </table>
+
+    <fieldset>
+        <legend>Course Enrollment Form</legend>
+        <form action="" method="post">
+            <div>
+                <label for="full_name">Full Name</label>
+                <input type="text" id="full_name" placeholder="Enter your full name" required>
+            </div>
+            <div>
+                <label for="dob">DOB</label>
+                <input type="date" id="dob" placeholder="DOB" required>
+            </div>
+            <div>
+                <label for="phone">Phone number</label>
+                <input type="tel" id="phone" placeholder="Entery your 10 digits phone number" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+            </div>
+    
+            <div>
+                <label for="age">Age</label>
+                <input type="number" id="age" placeholder="Age" required>
+            </div>
+    
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Email ID">
+            </div> 
+    
+            <div>
+                <label for="pwd">Password</label>
+                <input type="password" id="pwd" placeholder="Set your Password">
+            </div> 
+
+            <div>
+                <label for="resume">Resume</label>
+                <input type="file" id="resume">
+            </div>
+    
+            <div>
+                <label for="color">Fav Color</label>
+                <input type="color" id="color">
+            </div>
+    
+    
+            <div>
+                <label for="course">Courses</label>
+                <select name="" id="course">
+                    <option value="java">Java Language</option>
+                    <option value="python">Python Language</option>
+                    <option value="js">JS Language</option>
+                </select>
+            </div>
+    
+    
+    
+            <input type="button" value="SUBMIT">
+    
+    
+    
+        </form>
+    
+    
+
+    </fieldset>
+
+
+
+
+    <!-- Hey -->
+</body>
+
+</html>
