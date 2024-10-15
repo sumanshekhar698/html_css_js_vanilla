@@ -1,0 +1,20 @@
+
+
+h1 {
+    color: rgb(13, 107, 19);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 80px;
+    font-weight: bolder;
+}
+
+
+#heading1 {
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+.covers{
+    width: 800px;
+    aspect-ratio: 16 / 9;
+    /* height: 200px; */
+}

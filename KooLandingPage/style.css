@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Nunito Sans;
+    /* border: 1px solid red; */
+}
+
+:root {
+    --primary-color: #fdcc04;
+    --secondary-color: #1f1f1f;
+}
+
+* {
+    background-color: var(--primary-color);
+}
+
+
+/* targetting nav HTML element */
+nav {
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    color: var(--secondary-color);
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo>img {
+    width: 50px;
+}
+
+.logo>h1 {
+
+    font-size: 40px;
+    color: rgb(9, 49, 83);
+}
+
+.nav-items>a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    padding: 0 20px;
+    font-weight: 600;
+}
+
+
+.nav-items>a:hover {
+    color: #fff;
+    transition: ease-in-out 0.3s;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90vh;
+    padding: 0 20vw;
+}
+
+.column-left {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+
+    padding: 0px 20px;
+}
+
+.column-left h1 {
+    font-size: 60px;
+}
+
+.column-left p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.column-left button {
+    padding: 10px 40px;
+    font-size: 20px;
+    border: 1px solid #000000;
+    color: cornsilk;
+    background-color: #1f1f1f;
+    border-radius: 60px;
+    cursor: pointer;
+}
+
+/* hover is pseudo class */
+.column-left button:hover {
+    background-color: rgb(176, 212, 17);
+    color: #1f1f1f;
+    transition: ease-in-out 0.3s;
+
+}
+
+.column-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 40px;
+}
